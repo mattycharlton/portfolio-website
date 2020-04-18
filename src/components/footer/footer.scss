@@ -1,0 +1,12 @@
+@import '../../styles/partials/variables';
+
+.footer {
+    width: 100%;
+    background-color: $gray-900;
+    padding: 50px;
+
+    p {
+        text-align: center;
+        color: $white;
+    }
+}
