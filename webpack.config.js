@@ -38,15 +38,21 @@ module.exports = {
               localIdentName: '[local]___[hash:base64:5]'
             }
           },
-        'sass-loader',
+          'sass-loader',
         ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
       },
       {
         test: /\.(html)$/,
         exclude: /node_modules/,
         use: {
           loader: 'html-loader',
-          options: {minimize: true}
+          options: { minimize: true }
         }
       }
     ]
