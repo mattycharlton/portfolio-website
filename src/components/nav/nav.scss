@@ -1,0 +1,65 @@
+@import "../../styles/partials/variables";
+
+.menu {
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 10;
+    svg {
+        color: $secondary-colour;
+        &:hover {
+            color: $accent-colour;
+        }
+    }
+}
+
+.navigationContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    .navigationItems {
+        display: none;
+    }
+}
+
+.navigationContainerOpen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $primary-colour;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+
+    .navigationItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 10px;
+            a {
+                color: $secondary-colour;
+                font-weight: 900;
+                font-size: 3rem;
+                transition: font-size 0.3s ease-out, color 0.3s ease;
+                &:hover {
+                    color: $accent-colour;
+                    font-size: 3.2rem;
+                }
+            }
+        }
+    }
+}
