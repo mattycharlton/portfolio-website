@@ -1,8 +1,10 @@
-import React, {Component, Fragment} from 'react';
+import React, { Component, Fragment } from 'react';
+import Banner from '../../components/banner/banner';
+import Background from '../../images/home-background.jpg';
 
 const Home = () => (
   <Fragment>
-      <h1>Home</h1>
+    <Banner image={Background} title={'Matty Charlton'} subTitle={'UI / Front End Engineer'} showSocialIcons={true} />
   </Fragment>
 );
 
