@@ -9,8 +9,6 @@ body {
   background-color: $body-bg;
 }
 
-.resizeable-both {
-  @include resizable(both);
-  border: 1px solid $gray-400;
-  display: block;
+a {
+  text-decoration: none;
 }

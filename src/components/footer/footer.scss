@@ -1,0 +1,11 @@
+@import '../../styles/partials/variables';
+
+.footer {
+    background: $primary-colour;
+    padding: 50px;
+
+    p {
+        text-align: center;
+        color: $secondary-colour;
+    }
+}

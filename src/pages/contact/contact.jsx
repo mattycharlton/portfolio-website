@@ -1,8 +1,10 @@
-import React, {Component, Fragment} from 'react';
+import React, { Component, Fragment } from 'react';
+import Banner from '../../components/banner/banner';
+import Background from '../../images/home-background.jpg';
 
 const Contact = () => (
   <Fragment>
-      <h1>Contact</h1>
+    <Banner image={Background} title={'Contact Matty'} subTitle={''} />
   </Fragment>
 );
 

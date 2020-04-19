@@ -1,0 +1,16 @@
+@import "../../styles/partials/variables";
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        margin: 10px;
+
+        svg {
+            &:hover {
+                color: $accent-colour;
+            }
+        }
+    }
+}
