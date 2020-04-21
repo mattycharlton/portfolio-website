@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+.banner___1xEq7{min-height:100vh;background-size:cover;box-shadow:inset 0 0 0 1000px rgba(90,185,234,0.9);display:flex;flex-direction:column;display:flex;justify-content:center;align-items:center}.banner___1xEq7 h1{font-size:3rem;text-align:center;font-weight:900;margin:0}.banner___1xEq7 p{font-size:1.5rem;text-align:center}
+
+.social___1kb9T{display:flex;align-items:center;justify-content:center}.social___1kb9T a{margin:10px;cursor:pointer}.social___1kb9T a svg{transition:color 0.5s ease;color:#fff}.social___1kb9T a svg:hover{color:#2a365b}
+
+.section___PfDUq{min-height:50vh;display:flex;justify-content:center;align-items:center;margin:10px 10%}.section___PfDUq .left_content___2qbRt{flex:1;display:inherit;justify-content:flex-start}.section___PfDUq .left_content___2qbRt img{border-radius:50%;width:250px;margin:10px}.section___PfDUq .right_content___2gOm0{flex:2}.section___PfDUq .right_content___2gOm0 h2{font-size:2rem;text-align:center;font-weight:900;margin:0;color:#2a365b}.section___PfDUq .right_content___2gOm0 p{font-size:1.2rem;line-height:2rem;text-align:center;color:#2a365b}
+
+
+
+.menu___FvzBw{cursor:pointer;position:fixed;top:30px;left:30px;z-index:10}.menu___FvzBw svg{color:#fff;transition:color 0.5s ease}.menu___FvzBw svg:hover{color:#2a365b}.navigationContainer___1fmD6{position:fixed;top:0;right:0;bottom:0;left:0;visibility:hidden;opacity:0}.navigationContainer___1fmD6 .navigationItems___4msB_{display:none}.navigationContainerOpen___9kUmE{position:fixed;top:0;right:0;bottom:0;left:0;background:#5ab9ea;visibility:visible;opacity:1;transition:opacity 0.5s ease}.navigationContainerOpen___9kUmE .navigationItems___4msB_{display:flex;flex-direction:column;justify-content:center;height:100%;list-style-type:none;text-align:center;margin:0;padding:0}.navigationContainerOpen___9kUmE .navigationItems___4msB_ li{margin:10px}.navigationContainerOpen___9kUmE .navigationItems___4msB_ li a{color:#fff;font-weight:900;font-size:3rem;transition:font-size 0.5s ease, color 0.5s ease}.navigationContainerOpen___9kUmE .navigationItems___4msB_ li a:hover{color:#2a365b;font-size:3.2rem}
+
+.footer___1NlzQ{background:#2a365b;padding:50px}.footer___1NlzQ p{text-align:center;color:#fff}
+
+body{margin:0;font-family:"Merriweather",serif;font-size:1rem;font-weight:400;line-height:1.5;color:#fff;text-align:left;background-color:#fff}a{text-decoration:none}
+
