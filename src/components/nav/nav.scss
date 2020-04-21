@@ -8,6 +8,7 @@
     z-index: 10;
     svg {
         color: $secondary-colour;
+        transition: color 0.5s ease;
         &:hover {
             color: $accent-colour;
         }
@@ -36,7 +37,7 @@
     background: $primary-colour;
     visibility: visible;
     opacity: 1;
-    transition: opacity 0.2s ease-out;
+    transition: opacity 0.5s ease;
 
     .navigationItems {
         display: flex;
@@ -54,7 +55,7 @@
                 color: $secondary-colour;
                 font-weight: 900;
                 font-size: 3rem;
-                transition: font-size 0.3s ease-out, color 0.3s ease;
+                transition: font-size 0.5s ease, color 0.5s ease;
                 &:hover {
                     color: $accent-colour;
                     font-size: 3.2rem;

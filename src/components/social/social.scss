@@ -6,8 +6,11 @@
     justify-content: center;
     a {
         margin: 10px;
+        cursor: pointer;
 
         svg {
+            transition: color 0.5s ease;
+            color: $secondary-colour;
             &:hover {
                 color: $accent-colour;
             }

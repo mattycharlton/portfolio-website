@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
 // Colors
-$primary-colour: linear-gradient(180deg, rgba(90,185,234,1) 0%, rgba(132,206,235,1) 100%);
+$primary-colour: rgba(90, 185, 234, 1);
 $secondary-colour: #fff;
-$accent-colour: #5680E9;
+$accent-colour: #2a365b;
 
 $blue: #5680E9;
 $light-blue: #5AB9EA;
 $lighter-blue: #84CEEB;
 
+$old-color: linear-gradient(180deg, rgba(90,185,234,1) 0%, rgba(132,206,235,1) 100%);
 // Typography
 $font-family-serif:       "Merriweather", serif !default;
 $font-family-base:        $font-family-serif !default;
