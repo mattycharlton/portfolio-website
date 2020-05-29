@@ -1,4 +1,6 @@
 @import "../../styles/partials/variables";
+@import "../../styles/partials/mixins";
+
 .banner {
     min-height: 100vh;
     background-size: cover;
@@ -14,9 +16,10 @@
         margin: 0;
     }
 
-    p {
+    h2 {
         font-size: 1.5rem;
         text-align: center;
+        color: $accent-colour;
     }
 }
 
@@ -25,6 +28,9 @@
     img {
         width: 100px;
         margin-bottom: 20px;
+    }
+    @include respond(tablet){
+        margin: 0 30px;
     }
 }
 
@@ -75,3 +81,5 @@
         opacity: 0;
     }
 }
+
+

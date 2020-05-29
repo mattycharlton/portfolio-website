@@ -8,7 +8,7 @@ import Social from '../social/social';
 
 const Contact = () => {
 
-    return <section className={styles.section} id="scroll-too">
+    return <section className={styles.section} id="contact-section">
         <h2>Contact</h2>
         <div className={styles.content}>
             <div>

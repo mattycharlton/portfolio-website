@@ -1,4 +1,13 @@
-@mixin resizable($direction) {
-  overflow: auto; // Per CSS3 UI, `resize` only applies when `overflow` isn't `visible`
-  resize: $direction; // Options: horizontal, vertical, both
+@mixin respond($breakpoint) {
+  @if $breakpoint==tablet {
+    @media only screen and (max-width: 900px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==mobile {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
 }

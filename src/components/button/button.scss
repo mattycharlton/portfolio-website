@@ -2,7 +2,7 @@
 
 .buttonLight {
   display: inline-flex;
-  margin: 15px;
+  margin: 0.83rem;
   padding: 15px 50px;
   cursor: pointer;
   transition: all 150ms linear;
@@ -16,8 +16,8 @@
 
   &:hover {
     transition: all 150ms linear;
-    background-color: $secondary-colour;
-    color: $primary-colour;
+    background-color: $accent-colour;
+    border: 2px solid $accent-colour;
   }
 
   &:active {
@@ -26,14 +26,14 @@
   }
 
   &:focus {
-    outline: 1px dotted white;
+    opacity: .75;
     outline-offset: -4px;
   }
 }
 
 .buttonDark {
   display: inline-flex;
-  margin: 15px;
+  margin: 0.83rem;
   padding: 15px 50px;
   cursor: pointer;
   transition: all 150ms linear;
@@ -57,7 +57,7 @@
   }
 
   &:focus {
-    outline: 1px dotted white;
+    opacity: .75;
     outline-offset: -4px;
   }
 }

@@ -19,7 +19,7 @@ const Skills = () => {
 
     const skills = skillsData.map((type, i) => {
         return <div key={i}>
-            <h2>{type.Area}</h2>
+            <h3>{type.Area}</h3>
             {type.Skills.map((skill, i) => <p key={i}>{skill}</p>)}
         </div>
     });
@@ -29,7 +29,7 @@ const Skills = () => {
         <div className={styles.focusItems}>
             {skills}
         </div>
-        <Button type='light' label='View LinkedIn'/>
+        <Button link='https://www.linkedin.com/in/mattycharlton/' target='_blank' type='light' label='View LinkedIn'/>
     </section>
 };
 

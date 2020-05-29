@@ -35,11 +35,11 @@ const FocusAreas = () => {
     });
 
     return <section className={styles.section} id="scroll-too">
-        <h2>Specialties</h2>
+        <h2>Specialities</h2>
         <div className={styles.focusItems}>
         {areasOfFocus}
         </div>
-        <Button type='light' label='Contact me'/>
+        <Button link='#contact-section' type='light' label='Contact me'/>
     </section>
 };
 

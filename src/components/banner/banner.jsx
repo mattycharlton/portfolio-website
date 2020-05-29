@@ -16,9 +16,9 @@ const Banner = ({ title, subTitle, image }) => {
 
     return <section className={`${styles.banner} dark`} style={backgroundImage}>
         <div className={styles.content}>
-            <img src={logo}></img>
+            <img alt='mattys logo' src={logo}></img>
             <h1>{title}</h1>
-            <p>{subTitle}</p>
+            <h2>{subTitle}</h2>
             <Social theme='light' size="2x" />
             <a className={styles.scrollButton} onClick={(e) => onClickScroll()}><span></span></a>
         </div>
