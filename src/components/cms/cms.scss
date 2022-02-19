@@ -1,0 +1,42 @@
+@import "../../styles/partials/variables";
+@import "../../styles/partials/mixins";
+
+.section {
+    padding: 40px 10%;
+    text-align: center;
+
+    h2 {
+        color: $primary-colour;
+    }
+}
+
+.focusItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+    div {
+        display: inherit;
+        flex: 1;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 40px;
+
+        @include respond(tablet){
+            padding: 40px;
+        }
+
+        img {
+            width: 200px;
+            align-self: center;
+        }
+
+        p {
+            margin: 5px 0 0 0;
+            color: $primary-colour;
+        }
+
+    }
+}

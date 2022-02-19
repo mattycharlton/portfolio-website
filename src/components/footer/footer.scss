@@ -1,11 +1,16 @@
 @import '../../styles/partials/variables';
 
 .footer {
-    background: $accent-colour;
+    background: $primary-colour;
     padding: 50px;
+    text-align: center;
 
     p {
-        text-align: center;
         color: $secondary-colour;
+    }
+
+    img {
+        width: 100px;
+        opacity: 0.1;
     }
 }

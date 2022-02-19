@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Banner from '../../components/banner/banner';
-import Background from '../../images/home-background.jpg';
+import Background from '../../images/skill-background.jpg';
 
 const Skills = () => (
   <Fragment>
