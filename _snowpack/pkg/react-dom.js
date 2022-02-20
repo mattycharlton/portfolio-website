@@ -351,16 +351,4 @@ function checkDCE() {
 }
 });
 
-var __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED$1 = reactDom.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-var createPortal$1 = reactDom.createPortal;
 export default reactDom;
-var findDOMNode$1 = reactDom.findDOMNode;
-var flushSync$1 = reactDom.flushSync;
-var hydrate$1 = reactDom.hydrate;
-var render$1 = reactDom.render;
-var unmountComponentAtNode$1 = reactDom.unmountComponentAtNode;
-var unstable_batchedUpdates$1 = reactDom.unstable_batchedUpdates;
-var unstable_createPortal$1 = reactDom.unstable_createPortal;
-var unstable_renderSubtreeIntoContainer$1 = reactDom.unstable_renderSubtreeIntoContainer;
-var version$1 = reactDom.version;
-export { __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED$1 as __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, reactDom as __moduleExports, createPortal$1 as createPortal, findDOMNode$1 as findDOMNode, flushSync$1 as flushSync, hydrate$1 as hydrate, render$1 as render, unmountComponentAtNode$1 as unmountComponentAtNode, unstable_batchedUpdates$1 as unstable_batchedUpdates, unstable_createPortal$1 as unstable_createPortal, unstable_renderSubtreeIntoContainer$1 as unstable_renderSubtreeIntoContainer, version$1 as version };
