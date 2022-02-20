@@ -1,0 +1,1 @@
+export default "/images/tertiary-logo.png";
