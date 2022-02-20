@@ -1,6 +1,7 @@
 {
   "mount": {
-    "build": "/",
+    "dist": "/",
     "src": "/"
-  }
+  },
+  "plugins": [["@snowpack/plugin-webpack"]]
 }
