@@ -1,8 +1,8 @@
 import styled from "../../_snowpack/pkg/styled-components.js";
 export const Container = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 export const Icon = styled.a`
   margin: 10px;
