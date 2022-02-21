@@ -1,10 +1,10 @@
-import React from 'react';
-import Banner from '../../components/Banner/Banner';
+import React from 'react'
+import Banner from '../../components/Banner/Banner'
 
 const SinglePageWebsite = () => (
   <>
     <Banner />
   </>
-);
+)
 
-export default SinglePageWebsite;
+export default SinglePageWebsite

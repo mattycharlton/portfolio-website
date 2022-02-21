@@ -1,13 +1,13 @@
-import React, { Fragment } from "react";
-import Social from "../SocialIcons/SocialIcons";
-import logo from "../../images/tertiary-logo.png";
+import React, { Fragment } from 'react'
+import Social from '../SocialIcons/SocialIcons'
+import logo from '../../images/tertiary-logo.png'
 import {
   BannerWrapper,
   Container,
   Heading,
   SubHeading,
   Logo,
-} from "./Banner.styled";
+} from './Banner.styled'
 
 const Banner = () => (
   <BannerWrapper>
@@ -18,6 +18,6 @@ const Banner = () => (
       <Social />
     </Container>
   </BannerWrapper>
-);
+)
 
-export default Banner;
+export default Banner

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
     html {
@@ -23,6 +23,6 @@ const GlobalStyle = createGlobalStyle`
     h1,h2,h3 {
         font-weight: 900;
     }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle

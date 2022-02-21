@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const Icon = styled.a`
@@ -17,4 +17,4 @@ export const Icon = styled.a`
       color: #e50023;
     }
   }
-`;
+`

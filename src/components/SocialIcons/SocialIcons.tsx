@@ -1,12 +1,12 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faStackOverflow,
   faLinkedin,
   faTwitter,
   faGithub,
-} from "@fortawesome/free-brands-svg-icons";
-import { Container, Icon } from "./SocialIcons.styled";
+} from '@fortawesome/free-brands-svg-icons'
+import { Container, Icon } from './SocialIcons.styled'
 
 const SocialIcons = () => (
   <Container>
@@ -26,6 +26,6 @@ const SocialIcons = () => (
       <FontAwesomeIcon icon={faStackOverflow} size="3x" />
     </Icon>
   </Container>
-);
+)
 
-export default SocialIcons;
+export default SocialIcons

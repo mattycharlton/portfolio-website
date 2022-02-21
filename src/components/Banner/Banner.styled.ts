@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Background from "../../images/home-background.jpg";
+import styled from 'styled-components'
+import Background from '../../images/home-background.jpg'
 
 export const BannerWrapper = styled.section`
   min-height: 100vh;
@@ -9,18 +9,18 @@ export const BannerWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   background-image: url(${Background});
-`;
+`
 
 export const Container = styled.div`
   text-align: center;
-`;
+`
 
 export const Heading = styled.h1`
   font-size: 50px;
   text-align: center;
   font-weight: 900;
   margin: 0;
-`;
+`
 
 export const SubHeading = styled.h2`
   display: inline-flex;
@@ -28,9 +28,9 @@ export const SubHeading = styled.h2`
   font-weight: 100;
   text-align: center;
   padding: 10px;
-`;
+`
 
 export const Logo = styled.img`
   width: 100px;
   margin-bottom: 20px;
-`;
+`

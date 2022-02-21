@@ -7,6 +7,6 @@ const App = () => (
     <GlobalStyle />
     <SinglePageWebsite />
   </>
-);
+)
 
 export default App
