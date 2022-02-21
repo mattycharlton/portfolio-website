@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "author": "",
+  "homepage": "/matty-charlton-website",
   "license": "ISC",
   "scripts": {
     "start": "snowpack dev",
