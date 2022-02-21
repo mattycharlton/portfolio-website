@@ -1,19 +1,19 @@
-# empty-project
+# matty-charlton-website
 
-Empty project.
+Matthew Charlton's online portfolio repo.
 
 ## How to run on localhost
 
 First install dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 To run in dev mode mode:
 
 ```sh
-npm start
+yarn start
 ```
 
 Then go to http://localhost:8080
@@ -21,10 +21,5 @@ Then go to http://localhost:8080
 To create a production build:
 
 ```sh
-npm run build
+yarn build
 ```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
-
