@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "outDir": "./build/",
         "sourceMap": true,
         "strict": true,
         "noImplicitReturns": true,
@@ -13,6 +12,7 @@
         "jsx": "react",
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "./types"
     ]
 }
