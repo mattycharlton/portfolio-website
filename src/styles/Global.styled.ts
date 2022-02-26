@@ -1,10 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-    html {
-        scroll-behavior: smooth;
-    }
-
     body {
         margin: 0;
         font-family: 'Merriweather', serif;
@@ -12,8 +8,8 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         line-height: 1.5;
         color: #fff;
-        text-align: left;
         background-color: #fff;
+        overflow: hidden;
     }
 
     a {
@@ -23,6 +19,13 @@ const GlobalStyle = createGlobalStyle`
     h1,h2,h3 {
         font-weight: 900;
     }
+`
+
+export const GlobalWrapper = styled.div`
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y proximity;
 `
 
 export default GlobalStyle
