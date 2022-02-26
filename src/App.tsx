@@ -7,7 +7,7 @@ const App = () => (
   <GlobalWrapper>
     <GlobalStyle />
     <Banner />
-    {/* <About /> */}
+    {/*     <About /> */}
   </GlobalWrapper>
 )
 

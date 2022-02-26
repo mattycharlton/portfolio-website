@@ -42,6 +42,10 @@ export const Heading = styled.h1`
   font-size: 50px;
   font-weight: 900;
   margin: 0;
+  border: 2px solid #e50023;
+  background-color: #e50023;
+  display: inline-block;
+  color: #fff;
 `
 
 export const SubHeading = styled.h2`
