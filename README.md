@@ -1,6 +1,8 @@
-# matty-charlton-website
+# Portfolio Website
 
-Matthew Charlton's online portfolio repo.
+My portfolio website without the portfolio. Built using TypeScript, React & Styled Components. Using Snowpack as the front-end build tool.
+
+url: https://www.mattycharlton.co.uk
 
 ## How to run on localhost
 
